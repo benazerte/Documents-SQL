@@ -1,6 +1,6 @@
 # Documentation SQL
 
-Ce document explique les instructions SQL de base à l'aide d'un exemple de table `clients`.
+Ce document reprend les instructions vues depuis le début de l'année en cours et TP de Bloc 1 SQL.
 
 ## Table des matières
 1. [Création de la table](#création-de-la-table)
