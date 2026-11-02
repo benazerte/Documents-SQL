@@ -4,6 +4,7 @@ import { useState, type FormEvent } from 'react';
 import { createAuthClient } from 'better-auth/react';
 import { ArrowRight, GitBranch, Layers3, ShieldCheck } from 'lucide-react';
 import { brand } from '@/lib/types';
+import { authenticationErrorMessage } from '@/lib/auth-error';
 import { ErrorMessage, Field, Logo } from './ui';
 
 export const authClient = createAuthClient();
@@ -22,13 +23,13 @@ export function AuthScreen({ onAuthenticated }: { onAuthenticated: () => void })
       const result = register
         ? await authClient.signUp.email({ email, password, name: String(data.get('name')) })
         : await authClient.signIn.email({ email, password });
-      if (result.error)
-        throw new Error(
-          result.error.message || 'Unable to authenticate. Check your details and try again.',
-        );
+      if (result.error) {
+        setError(authenticationErrorMessage(result.error));
+        return;
+      }
       onAuthenticated();
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Unable to connect. Please try again.');
+      setError(authenticationErrorMessage(err));
     } finally {
       setBusy(false);
     }

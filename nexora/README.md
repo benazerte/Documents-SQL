@@ -31,6 +31,18 @@ Open the application at `http://localhost:3000`, create an account, and create a
 
 Each cloud task is already isolated. Develop in the existing checkout; do not create a Git worktree unless specifically requested.
 
+## Local signup troubleshooting
+
+For local development, the app defaults to `http://localhost` on the actual port printed by Next.js. A `.env.local` file is optional in development; the database and private signing secret are created automatically when needed. If you explicitly set `BETTER_AUTH_URL`, it must exactly match the browser's scheme, hostname and port.
+
+Older downloads could reject signup with HTTP 403 because Next exposes an internal `0.0.0.0` request URL. Update the `nexora/initial-release` branch, or add this line to `.env.local` beside `package.json` for a server running on port 3000:
+
+```env
+BETTER_AUTH_URL=http://localhost:3000
+```
+
+Stop the development server with Ctrl+C, restart `pnpm dev`, and open that exact address. Preserve any other settings and your existing `data/` directory. An unauthenticated `GET /api/workspaces` returning 401 on the sign-in screen is expected; a signup POST returning 403 is a separate origin/configuration problem.
+
 ## Commands
 
 | Command             | Purpose                                                         |

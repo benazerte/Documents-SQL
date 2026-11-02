@@ -3,9 +3,10 @@ import { randomBytes } from 'node:crypto';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { getDb } from './db';
+import { applicationBaseURL } from './origin';
 
 function authConfiguration() {
-  const baseURL = process.env.BETTER_AUTH_URL || process.env.AUTH_URL || 'http://localhost:3000';
+  const baseURL = applicationBaseURL();
   const url = new URL(baseURL);
   const production = process.env.NODE_ENV === 'production';
   let secret = process.env.BETTER_AUTH_SECRET || process.env.AUTH_SECRET;

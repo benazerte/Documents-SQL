@@ -41,6 +41,19 @@ Executed on 2 November 2026 in this managed environment:
 
 CI configuration exists at `../.github/workflows/nexora.yml`; it has not been executed on GitHub in this session. No tests were skipped to obtain a pass.
 
+## Local signup correction — 2 November 2026
+
+A user-reported fresh-download defect was reproduced in an isolated Next development server without `.env.local`: Next's internal request URL used `0.0.0.0`, while the browser used `localhost`; the origin guard rejected registration with 403. Earlier configured production tests did not cover this no-configuration development path.
+
+Authentication and CSRF checks now share a canonical URL resolver. Without an explicit URL it uses `localhost` and Next's actual listening port. Explicit URLs remain authoritative, and arbitrary Host/forwarded headers remain untrusted. The sign-in form also preserves useful wrapper errors instead of blaming account details for an origin rejection.
+
+Verified for this correction:
+
+- Real browser registration, session persistence and workspace creation passed in a clean development copy with no `.env` file.
+- Strict typecheck, lint, all **70 unit/integration tests across 10 files**, and the production build passed.
+- Added origin regression cases for internal bind addresses, actual ports, configured origins, and spoofed/cross-site headers; added safe client-error normalization tests.
+- The rebuilt browser suite, including the new rejected-origin error-message case, passed: **5 browser tests in 14.2 seconds**. Configured production-origin checks, existing work management, financial flows and dark/light accessibility checks remain passing.
+
 ## Architecture decisions
 
 - Application lives in `nexora/` within the selected Documents-SQL repository. Original SQL teaching files are unchanged; NEXORA uses its own SQLite database.

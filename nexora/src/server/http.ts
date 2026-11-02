@@ -1,5 +1,6 @@
 import { ZodError } from 'zod';
 import { AppError } from './domain';
+import { applicationBaseURL } from './origin';
 
 export function json(data: unknown, status = 200) {
   return Response.json(data, { status, headers: { 'Cache-Control': 'no-store' } });
@@ -27,8 +28,7 @@ export function errorResponse(error: unknown) {
 }
 export function assertOrigin(request: Request) {
   const origin = request.headers.get('origin');
-  const configured = process.env.BETTER_AUTH_URL || process.env.AUTH_URL;
-  const expected = configured ? new URL(configured).origin : new URL(request.url).origin;
+  const expected = new URL(applicationBaseURL()).origin;
   if (origin !== expected)
     throw new AppError('This request did not originate from the application.', 403);
   if (request.headers.get('sec-fetch-site') === 'cross-site')
