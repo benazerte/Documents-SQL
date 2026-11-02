@@ -1,0 +1,38 @@
+name: NEXORA checks
+on:
+  push:
+    paths: ["nexora/**", ".github/workflows/nexora.yml"]
+  pull_request:
+    paths: ["nexora/**", ".github/workflows/nexora.yml"]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: nexora
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
+      BETTER_AUTH_URL: http://localhost:3000
+      DATABASE_PATH: ./data/ci.sqlite
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: corepack enable && corepack prepare pnpm@11.25.0 --activate
+      - run: pnpm install --frozen-lockfile
+      - name: Configure ephemeral signing secret
+        run: echo "BETTER_AUTH_SECRET=$(openssl rand -hex 48)" >> "$GITHUB_ENV"
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm build
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-failure-evidence
+          path: |
+            nexora/test-results
+            nexora/playwright-report

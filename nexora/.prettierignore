@@ -1,0 +1,11 @@
+node_modules
+.next
+pnpm-lock.yaml
+playwright-report
+test-results
+data
+# Generated attribution text and the verbatim supplied product directive.
+THIRD_PARTY_NOTICES.txt
+docs/third-party/
+docs/PRODUCT_DIRECTIVE.md
+next-env.d.ts

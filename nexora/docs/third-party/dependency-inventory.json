@@ -1,0 +1,2370 @@
+[
+  {
+    "name": "@alloc/quick-lru",
+    "version": "5.3.0",
+    "license": "MIT",
+    "repository": "https://github.com/aleclarson/quick-lru",
+    "source": "https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.3.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "@babel/code-frame",
+    "version": "7.29.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-code-frame"
+    },
+    "source": "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/compat-data",
+    "version": "7.29.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-compat-data"
+    },
+    "source": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/core",
+    "version": "7.29.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-core"
+    },
+    "source": "https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/generator",
+    "version": "7.29.12",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-generator"
+    },
+    "source": "https://registry.npmjs.org/@babel/generator/-/generator-7.29.12.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/helper-compilation-targets",
+    "version": "7.29.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-compilation-targets"
+    },
+    "source": "https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/helper-globals",
+    "version": "7.29.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-globals"
+    },
+    "source": "https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.29.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/helper-module-imports",
+    "version": "7.29.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-module-imports"
+    },
+    "source": "https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/helper-module-transforms",
+    "version": "7.29.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-module-transforms"
+    },
+    "source": "https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.29.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/helper-string-parser",
+    "version": "7.29.11",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-string-parser"
+    },
+    "source": "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.29.11.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/helper-validator-identifier",
+    "version": "7.29.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-validator-identifier"
+    },
+    "source": "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/helper-validator-option",
+    "version": "7.29.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helper-validator-option"
+    },
+    "source": "https://registry.npmjs.org/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/helpers",
+    "version": "7.29.10",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-helpers"
+    },
+    "source": "https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.10.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/parser",
+    "version": "7.29.12",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-parser"
+    },
+    "source": "https://registry.npmjs.org/@babel/parser/-/parser-7.29.12.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/template",
+    "version": "7.29.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-template"
+    },
+    "source": "https://registry.npmjs.org/@babel/template/-/template-7.29.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/traverse",
+    "version": "7.29.12",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-traverse"
+    },
+    "source": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.12.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@babel/types",
+    "version": "7.29.11",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-types"
+    },
+    "source": "https://registry.npmjs.org/@babel/types/-/types-7.29.11.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@better-auth/core",
+    "version": "1.7.15",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/better-auth/better-auth.git",
+      "directory": "packages/core"
+    },
+    "source": "https://registry.npmjs.org/@better-auth/core/-/core-1.7.15.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "@better-auth/drizzle-adapter",
+    "version": "1.7.15",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/better-auth/better-auth.git",
+      "directory": "packages/drizzle-adapter"
+    },
+    "source": "https://registry.npmjs.org/@better-auth/drizzle-adapter/-/drizzle-adapter-1.7.15.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "@better-auth/kysely-adapter",
+    "version": "1.7.15",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/better-auth/better-auth.git",
+      "directory": "packages/kysely-adapter"
+    },
+    "source": "https://registry.npmjs.org/@better-auth/kysely-adapter/-/kysely-adapter-1.7.15.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "@better-auth/memory-adapter",
+    "version": "1.7.15",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/better-auth/better-auth.git",
+      "directory": "packages/memory-adapter"
+    },
+    "source": "https://registry.npmjs.org/@better-auth/memory-adapter/-/memory-adapter-1.7.15.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "@better-auth/mongo-adapter",
+    "version": "1.7.15",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/better-auth/better-auth.git",
+      "directory": "packages/mongo-adapter"
+    },
+    "source": "https://registry.npmjs.org/@better-auth/mongo-adapter/-/mongo-adapter-1.7.15.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "@better-auth/prisma-adapter",
+    "version": "1.7.15",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/better-auth/better-auth.git",
+      "directory": "packages/prisma-adapter"
+    },
+    "source": "https://registry.npmjs.org/@better-auth/prisma-adapter/-/prisma-adapter-1.7.15.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "@better-auth/telemetry",
+    "version": "1.7.15",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/better-auth/better-auth.git",
+      "directory": "packages/telemetry"
+    },
+    "source": "https://registry.npmjs.org/@better-auth/telemetry/-/telemetry-1.7.15.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "@better-auth/utils",
+    "version": "0.5.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/better-auth/utils.git"
+    },
+    "source": "https://registry.npmjs.org/@better-auth/utils/-/utils-0.5.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@better-fetch/fetch",
+    "version": "1.3.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/better-auth/better-fetch.git",
+      "directory": "packages/better-fetch"
+    },
+    "source": "https://registry.npmjs.org/@better-fetch/fetch/-/fetch-1.3.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@esbuild/linux-x64",
+    "version": "0.28.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evanw/esbuild.git"
+    },
+    "source": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.28.2.tgz",
+    "includedNoticeFiles": []
+  },
+  {
+    "name": "@img/colour",
+    "version": "1.1.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lovell/colour.git"
+    },
+    "source": "https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "@img/sharp-libvips-linux-x64",
+    "version": "1.3.4",
+    "license": "LGPL-3.0-or-later",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lovell/sharp-libvips.git",
+      "directory": "npm/linux-x64"
+    },
+    "source": "https://registry.npmjs.org/@img/sharp-libvips-linux-x64/-/sharp-libvips-linux-x64-1.3.4.tgz",
+    "includedNoticeFiles": ["README.md"]
+  },
+  {
+    "name": "@img/sharp-linux-x64",
+    "version": "0.35.5",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lovell/sharp.git",
+      "directory": "npm/linux-x64"
+    },
+    "source": "https://registry.npmjs.org/@img/sharp-linux-x64/-/sharp-linux-x64-0.35.5.tgz",
+    "includedNoticeFiles": ["LICENSE", "README.md"]
+  },
+  {
+    "name": "@jridgewell/gen-mapping",
+    "version": "0.3.13",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jridgewell/sourcemaps.git",
+      "directory": "packages/gen-mapping"
+    },
+    "source": "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@jridgewell/remapping",
+    "version": "2.3.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jridgewell/sourcemaps.git",
+      "directory": "packages/remapping"
+    },
+    "source": "https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@jridgewell/resolve-uri",
+    "version": "3.1.2",
+    "license": "MIT",
+    "repository": "https://github.com/jridgewell/resolve-uri",
+    "source": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@jridgewell/sourcemap-codec",
+    "version": "1.6.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jridgewell/sourcemaps.git",
+      "directory": "packages/sourcemap-codec"
+    },
+    "source": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@jridgewell/trace-mapping",
+    "version": "0.3.31",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jridgewell/sourcemaps.git",
+      "directory": "packages/trace-mapping"
+    },
+    "source": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@next/env",
+    "version": "16.4.4",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vercel/next.js",
+      "directory": "packages/next-env"
+    },
+    "source": "https://registry.npmjs.org/@next/env/-/env-16.4.4.tgz",
+    "includedNoticeFiles": []
+  },
+  {
+    "name": "@next/swc-linux-x64-gnu",
+    "version": "16.4.4",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vercel/next.js",
+      "directory": "crates/next-napi-bindings/npm/linux-x64-gnu"
+    },
+    "source": "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-16.4.4.tgz",
+    "includedNoticeFiles": []
+  },
+  {
+    "name": "@noble/ciphers",
+    "version": "2.4.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/paulmillr/noble-ciphers.git"
+    },
+    "source": "https://registry.npmjs.org/@noble/ciphers/-/ciphers-2.4.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@noble/hashes",
+    "version": "2.4.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/paulmillr/noble-hashes.git"
+    },
+    "source": "https://registry.npmjs.org/@noble/hashes/-/hashes-2.4.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@oxc-project/types",
+    "version": "0.156.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/oxc-project/oxc.git",
+      "directory": "npm/oxc-types"
+    },
+    "source": "https://registry.npmjs.org/@oxc-project/types/-/types-0.156.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@playwright/test",
+    "version": "1.64.1",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/microsoft/playwright.git"
+    },
+    "source": "https://registry.npmjs.org/@playwright/test/-/test-1.64.1.tgz",
+    "includedNoticeFiles": ["LICENSE", "NOTICE"]
+  },
+  {
+    "name": "@rolldown/binding-linux-x64-gnu",
+    "version": "1.2.16",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rolldown/rolldown.git",
+      "directory": "packages/rolldown"
+    },
+    "source": "https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.16.tgz",
+    "includedNoticeFiles": []
+  },
+  {
+    "name": "@rolldown/pluginutils",
+    "version": "1.0.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rolldown/plugins.git",
+      "directory": "packages/pluginutils"
+    },
+    "source": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@standard-schema/spec",
+    "version": "1.1.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/standard-schema/standard-schema"
+    },
+    "source": "https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@swc/helpers",
+    "version": "0.5.23",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/swc-project/swc.git",
+      "directory": "packages/helpers"
+    },
+    "source": "https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.23.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@tailwindcss/node",
+    "version": "4.3.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tailwindlabs/tailwindcss.git",
+      "directory": "packages/@tailwindcss-node"
+    },
+    "source": "https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@tailwindcss/oxide-linux-x64-gnu",
+    "version": "4.3.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tailwindlabs/tailwindcss.git",
+      "directory": "crates/node/npm/linux-x64-gnu"
+    },
+    "source": "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.3.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@tailwindcss/oxide",
+    "version": "4.3.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tailwindlabs/tailwindcss.git",
+      "directory": "crates/node"
+    },
+    "source": "https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@tailwindcss/postcss",
+    "version": "4.3.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tailwindlabs/tailwindcss.git",
+      "directory": "packages/@tailwindcss-postcss"
+    },
+    "source": "https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.3.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/chai",
+    "version": "5.2.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/chai"
+    },
+    "source": "https://registry.npmjs.org/@types/chai/-/chai-5.2.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/d3-color",
+    "version": "3.1.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/d3-color"
+    },
+    "source": "https://registry.npmjs.org/@types/d3-color/-/d3-color-3.1.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/d3-drag",
+    "version": "3.0.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/d3-drag"
+    },
+    "source": "https://registry.npmjs.org/@types/d3-drag/-/d3-drag-3.0.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/d3-interpolate",
+    "version": "3.0.4",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/d3-interpolate"
+    },
+    "source": "https://registry.npmjs.org/@types/d3-interpolate/-/d3-interpolate-3.0.4.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/d3-selection",
+    "version": "3.0.12",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/d3-selection"
+    },
+    "source": "https://registry.npmjs.org/@types/d3-selection/-/d3-selection-3.0.12.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/d3-transition",
+    "version": "3.0.9",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/d3-transition"
+    },
+    "source": "https://registry.npmjs.org/@types/d3-transition/-/d3-transition-3.0.9.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/d3-zoom",
+    "version": "3.0.9",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/d3-zoom"
+    },
+    "source": "https://registry.npmjs.org/@types/d3-zoom/-/d3-zoom-3.0.9.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/debug",
+    "version": "4.1.13",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/debug"
+    },
+    "source": "https://registry.npmjs.org/@types/debug/-/debug-4.1.13.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/deep-eql",
+    "version": "4.0.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/deep-eql"
+    },
+    "source": "https://registry.npmjs.org/@types/deep-eql/-/deep-eql-4.0.2.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/estree-jsx",
+    "version": "1.0.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/estree-jsx"
+    },
+    "source": "https://registry.npmjs.org/@types/estree-jsx/-/estree-jsx-1.0.5.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/estree",
+    "version": "1.0.10",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/estree"
+    },
+    "source": "https://registry.npmjs.org/@types/estree/-/estree-1.0.10.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/hast",
+    "version": "3.0.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/hast"
+    },
+    "source": "https://registry.npmjs.org/@types/hast/-/hast-3.0.5.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/mdast",
+    "version": "4.0.4",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/mdast"
+    },
+    "source": "https://registry.npmjs.org/@types/mdast/-/mdast-4.0.4.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/ms",
+    "version": "2.1.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/ms"
+    },
+    "source": "https://registry.npmjs.org/@types/ms/-/ms-2.1.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/node",
+    "version": "24.19.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/node"
+    },
+    "source": "https://registry.npmjs.org/@types/node/-/node-24.19.2.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/react-dom",
+    "version": "19.3.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/react-dom"
+    },
+    "source": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/react",
+    "version": "19.3.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/react"
+    },
+    "source": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/unist",
+    "version": "2.0.11",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/unist"
+    },
+    "source": "https://registry.npmjs.org/@types/unist/-/unist-2.0.11.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@types/unist",
+    "version": "3.0.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/unist"
+    },
+    "source": "https://registry.npmjs.org/@types/unist/-/unist-3.0.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@ungap/structured-clone",
+    "version": "1.4.0",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ungap/structured-clone.git"
+    },
+    "source": "https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.4.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@vitest/mocker",
+    "version": "5.0.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vitest-dev/vitest.git",
+      "directory": "packages/mocker"
+    },
+    "source": "https://registry.npmjs.org/@vitest/mocker/-/mocker-5.0.5.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@vitest/spy",
+    "version": "5.0.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vitest-dev/vitest.git",
+      "directory": "packages/spy"
+    },
+    "source": "https://registry.npmjs.org/@vitest/spy/-/spy-5.0.5.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@xyflow/react",
+    "version": "12.12.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xyflow/xyflow.git",
+      "directory": "packages/react"
+    },
+    "source": "https://registry.npmjs.org/@xyflow/react/-/react-12.12.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "@xyflow/system",
+    "version": "0.0.84",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xyflow/xyflow.git",
+      "directory": "packages/system"
+    },
+    "source": "https://registry.npmjs.org/@xyflow/system/-/system-0.0.84.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "assertion-error",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:chaijs/assertion-error.git"
+    },
+    "source": "https://registry.npmjs.org/assertion-error/-/assertion-error-2.0.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "bail",
+    "version": "2.0.2",
+    "license": "MIT",
+    "repository": "wooorm/bail",
+    "source": "https://registry.npmjs.org/bail/-/bail-2.0.2.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "baseline-browser-mapping",
+    "version": "2.11.34",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/web-platform-dx/baseline-browser-mapping.git"
+    },
+    "source": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.34.tgz",
+    "includedNoticeFiles": ["LICENSE.txt"]
+  },
+  {
+    "name": "better-auth",
+    "version": "1.7.15",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/better-auth/better-auth.git",
+      "directory": "packages/better-auth"
+    },
+    "source": "https://registry.npmjs.org/better-auth/-/better-auth-1.7.15.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "better-call",
+    "version": "1.4.4",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/better-auth/better-call.git",
+      "directory": "packages/better-call"
+    },
+    "source": "https://registry.npmjs.org/better-call/-/better-call-1.4.4.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "better-sqlite3",
+    "version": "13.0.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/WiseLibs/better-sqlite3.git"
+    },
+    "source": "https://registry.npmjs.org/better-sqlite3/-/better-sqlite3-13.0.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "browserslist",
+    "version": "4.29.5",
+    "license": "MIT",
+    "repository": "browserslist/browserslist",
+    "source": "https://registry.npmjs.org/browserslist/-/browserslist-4.29.5.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "caniuse-lite",
+    "version": "1.0.30001820",
+    "license": "CC-BY-4.0",
+    "repository": "browserslist/caniuse-lite",
+    "source": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001820.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "ccount",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "wooorm/ccount",
+    "source": "https://registry.npmjs.org/ccount/-/ccount-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "chai",
+    "version": "6.3.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/chaijs/chai"
+    },
+    "source": "https://registry.npmjs.org/chai/-/chai-6.3.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "character-entities-html4",
+    "version": "2.1.0",
+    "license": "MIT",
+    "repository": "wooorm/character-entities-html4",
+    "source": "https://registry.npmjs.org/character-entities-html4/-/character-entities-html4-2.1.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "character-entities-legacy",
+    "version": "3.0.0",
+    "license": "MIT",
+    "repository": "wooorm/character-entities-legacy",
+    "source": "https://registry.npmjs.org/character-entities-legacy/-/character-entities-legacy-3.0.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "character-entities",
+    "version": "2.0.2",
+    "license": "MIT",
+    "repository": "wooorm/character-entities",
+    "source": "https://registry.npmjs.org/character-entities/-/character-entities-2.0.2.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "character-reference-invalid",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "wooorm/character-reference-invalid",
+    "source": "https://registry.npmjs.org/character-reference-invalid/-/character-reference-invalid-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "classcat",
+    "version": "5.0.5",
+    "license": "MIT",
+    "repository": "jorgebucaran/classcat",
+    "source": "https://registry.npmjs.org/classcat/-/classcat-5.0.5.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "client-only",
+    "version": "0.0.1",
+    "license": "MIT",
+    "repository": null,
+    "source": "https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz",
+    "includedNoticeFiles": []
+  },
+  {
+    "name": "comma-separated-tokens",
+    "version": "2.0.3",
+    "license": "MIT",
+    "repository": "wooorm/comma-separated-tokens",
+    "source": "https://registry.npmjs.org/comma-separated-tokens/-/comma-separated-tokens-2.0.3.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "convert-source-map",
+    "version": "2.0.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/thlorenz/convert-source-map.git"
+    },
+    "source": "https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "csstype",
+    "version": "3.2.3",
+    "license": "MIT",
+    "repository": "https://github.com/frenic/csstype",
+    "source": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "d3-color",
+    "version": "3.1.0",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/d3/d3-color.git"
+    },
+    "source": "https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "d3-dispatch",
+    "version": "3.0.1",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/d3/d3-dispatch.git"
+    },
+    "source": "https://registry.npmjs.org/d3-dispatch/-/d3-dispatch-3.0.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "d3-drag",
+    "version": "3.0.0",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/d3/d3-drag.git"
+    },
+    "source": "https://registry.npmjs.org/d3-drag/-/d3-drag-3.0.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "d3-ease",
+    "version": "3.0.1",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/d3/d3-ease.git"
+    },
+    "source": "https://registry.npmjs.org/d3-ease/-/d3-ease-3.0.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "d3-interpolate",
+    "version": "3.0.1",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/d3/d3-interpolate.git"
+    },
+    "source": "https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "d3-selection",
+    "version": "3.0.0",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/d3/d3-selection.git"
+    },
+    "source": "https://registry.npmjs.org/d3-selection/-/d3-selection-3.0.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "d3-timer",
+    "version": "3.0.1",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/d3/d3-timer.git"
+    },
+    "source": "https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "d3-transition",
+    "version": "3.0.1",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/d3/d3-transition.git"
+    },
+    "source": "https://registry.npmjs.org/d3-transition/-/d3-transition-3.0.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "d3-zoom",
+    "version": "3.0.0",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/d3/d3-zoom.git"
+    },
+    "source": "https://registry.npmjs.org/d3-zoom/-/d3-zoom-3.0.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "debug",
+    "version": "4.4.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/debug-js/debug.git"
+    },
+    "source": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "decode-named-character-reference",
+    "version": "1.3.0",
+    "license": "MIT",
+    "repository": "wooorm/decode-named-character-reference",
+    "source": "https://registry.npmjs.org/decode-named-character-reference/-/decode-named-character-reference-1.3.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "defu",
+    "version": "6.1.7",
+    "license": "MIT",
+    "repository": "unjs/defu",
+    "source": "https://registry.npmjs.org/defu/-/defu-6.1.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "dequal",
+    "version": "2.0.3",
+    "license": "MIT",
+    "repository": "lukeed/dequal",
+    "source": "https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "detect-libc",
+    "version": "2.1.2",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/lovell/detect-libc.git"
+    },
+    "source": "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz",
+    "includedNoticeFiles": ["LICENSE", "README.md"]
+  },
+  {
+    "name": "devlop",
+    "version": "1.1.0",
+    "license": "MIT",
+    "repository": "wooorm/devlop",
+    "source": "https://registry.npmjs.org/devlop/-/devlop-1.1.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "electron-to-chromium",
+    "version": "1.5.472",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Kilian/electron-to-chromium.git"
+    },
+    "source": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.472.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "enhanced-resolve",
+    "version": "5.26.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/webpack/enhanced-resolve.git"
+    },
+    "source": "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.26.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "es-module-lexer",
+    "version": "2.3.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/guybedford/es-module-lexer.git"
+    },
+    "source": "https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-2.3.2.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "esbuild",
+    "version": "0.28.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evanw/esbuild.git"
+    },
+    "source": "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "escalade",
+    "version": "3.2.0",
+    "license": "MIT",
+    "repository": "lukeed/escalade",
+    "source": "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "estree-util-is-identifier-name",
+    "version": "3.0.0",
+    "license": "MIT",
+    "repository": "syntax-tree/estree-util-is-identifier-name",
+    "source": "https://registry.npmjs.org/estree-util-is-identifier-name/-/estree-util-is-identifier-name-3.0.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "estree-walker",
+    "version": "3.0.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Rich-Harris/estree-walker"
+    },
+    "source": "https://registry.npmjs.org/estree-walker/-/estree-walker-3.0.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "expect-type",
+    "version": "1.4.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mmkal/expect-type.git"
+    },
+    "source": "https://registry.npmjs.org/expect-type/-/expect-type-1.4.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "extend",
+    "version": "3.0.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/justmoon/node-extend.git"
+    },
+    "source": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "fdir",
+    "version": "6.5.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thecodrr/fdir.git"
+    },
+    "source": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "gensync",
+    "version": "1.0.0-beta.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/loganfsmyth/gensync.git"
+    },
+    "source": "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "graceful-fs",
+    "version": "4.2.11",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/isaacs/node-graceful-fs"
+    },
+    "source": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "has-flag",
+    "version": "4.0.0",
+    "license": "MIT",
+    "repository": "sindresorhus/has-flag",
+    "source": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "hast-util-to-jsx-runtime",
+    "version": "2.3.7",
+    "license": "MIT",
+    "repository": "syntax-tree/hast-util-to-jsx-runtime",
+    "source": "https://registry.npmjs.org/hast-util-to-jsx-runtime/-/hast-util-to-jsx-runtime-2.3.7.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "hast-util-whitespace",
+    "version": "3.0.0",
+    "license": "MIT",
+    "repository": "syntax-tree/hast-util-whitespace",
+    "source": "https://registry.npmjs.org/hast-util-whitespace/-/hast-util-whitespace-3.0.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "html-url-attributes",
+    "version": "3.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/rehypejs/rehype-minify/tree/main/packages/html-url-attributes",
+    "source": "https://registry.npmjs.org/html-url-attributes/-/html-url-attributes-3.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "inline-style-parser",
+    "version": "0.2.9",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/remarkablemark/inline-style-parser.git"
+    },
+    "source": "https://registry.npmjs.org/inline-style-parser/-/inline-style-parser-0.2.9.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "is-alphabetical",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "wooorm/is-alphabetical",
+    "source": "https://registry.npmjs.org/is-alphabetical/-/is-alphabetical-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "is-alphanumerical",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "wooorm/is-alphanumerical",
+    "source": "https://registry.npmjs.org/is-alphanumerical/-/is-alphanumerical-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "is-decimal",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "wooorm/is-decimal",
+    "source": "https://registry.npmjs.org/is-decimal/-/is-decimal-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "is-hexadecimal",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "wooorm/is-hexadecimal",
+    "source": "https://registry.npmjs.org/is-hexadecimal/-/is-hexadecimal-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "is-plain-obj",
+    "version": "4.1.0",
+    "license": "MIT",
+    "repository": "sindresorhus/is-plain-obj",
+    "source": "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-4.1.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "jiti",
+    "version": "2.7.0",
+    "license": "MIT",
+    "repository": "unjs/jiti",
+    "source": "https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "jose",
+    "version": "6.2.14",
+    "license": "MIT",
+    "repository": "panva/jose",
+    "source": "https://registry.npmjs.org/jose/-/jose-6.2.14.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "js-tokens",
+    "version": "4.0.0",
+    "license": "MIT",
+    "repository": "lydell/js-tokens",
+    "source": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "jsesc",
+    "version": "3.1.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathiasbynens/jsesc.git"
+    },
+    "source": "https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz",
+    "includedNoticeFiles": ["LICENSE-MIT.txt"]
+  },
+  {
+    "name": "json5",
+    "version": "2.2.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/json5/json5.git"
+    },
+    "source": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "kysely",
+    "version": "0.29.8",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kysely-org/kysely.git"
+    },
+    "source": "https://registry.npmjs.org/kysely/-/kysely-0.29.8.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "lightningcss-linux-x64-gnu",
+    "version": "1.32.0",
+    "license": "MPL-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/parcel-bundler/lightningcss.git"
+    },
+    "source": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.32.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "lightningcss-linux-x64-gnu",
+    "version": "1.33.0",
+    "license": "MPL-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/parcel-bundler/lightningcss.git"
+    },
+    "source": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.33.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "lightningcss",
+    "version": "1.32.0",
+    "license": "MPL-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/parcel-bundler/lightningcss.git"
+    },
+    "source": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "lightningcss",
+    "version": "1.33.0",
+    "license": "MPL-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/parcel-bundler/lightningcss.git"
+    },
+    "source": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "longest-streak",
+    "version": "3.1.0",
+    "license": "MIT",
+    "repository": "wooorm/longest-streak",
+    "source": "https://registry.npmjs.org/longest-streak/-/longest-streak-3.1.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "lru-cache",
+    "version": "5.1.1",
+    "license": "ISC",
+    "repository": "git://github.com/isaacs/node-lru-cache.git",
+    "source": "https://registry.npmjs.org/lru-cache/-/lru-cache-5.1.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "lucide-react",
+    "version": "0.577.0",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lucide-icons/lucide.git",
+      "directory": "packages/lucide-react"
+    },
+    "source": "https://registry.npmjs.org/lucide-react/-/lucide-react-0.577.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "magic-string",
+    "version": "0.30.21",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Rich-Harris/magic-string.git"
+    },
+    "source": "https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "magic-string",
+    "version": "1.4.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Rich-Harris/magic-string.git"
+    },
+    "source": "https://registry.npmjs.org/magic-string/-/magic-string-1.4.5.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "mdast-util-from-markdown",
+    "version": "2.1.0",
+    "license": "MIT",
+    "repository": "syntax-tree/mdast-util-from-markdown",
+    "source": "https://registry.npmjs.org/mdast-util-from-markdown/-/mdast-util-from-markdown-2.1.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "mdast-util-mdx-expression",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "syntax-tree/mdast-util-mdx-expression",
+    "source": "https://registry.npmjs.org/mdast-util-mdx-expression/-/mdast-util-mdx-expression-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "mdast-util-mdx-jsx",
+    "version": "3.2.0",
+    "license": "MIT",
+    "repository": "syntax-tree/mdast-util-mdx-jsx",
+    "source": "https://registry.npmjs.org/mdast-util-mdx-jsx/-/mdast-util-mdx-jsx-3.2.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "mdast-util-mdxjs-esm",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "syntax-tree/mdast-util-mdxjs-esm",
+    "source": "https://registry.npmjs.org/mdast-util-mdxjs-esm/-/mdast-util-mdxjs-esm-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "mdast-util-phrasing",
+    "version": "4.1.0",
+    "license": "MIT",
+    "repository": "syntax-tree/mdast-util-phrasing",
+    "source": "https://registry.npmjs.org/mdast-util-phrasing/-/mdast-util-phrasing-4.1.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "mdast-util-to-hast",
+    "version": "13.2.1",
+    "license": "MIT",
+    "repository": "syntax-tree/mdast-util-to-hast",
+    "source": "https://registry.npmjs.org/mdast-util-to-hast/-/mdast-util-to-hast-13.2.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "mdast-util-to-markdown",
+    "version": "2.2.1",
+    "license": "MIT",
+    "repository": "syntax-tree/mdast-util-to-markdown",
+    "source": "https://registry.npmjs.org/mdast-util-to-markdown/-/mdast-util-to-markdown-2.2.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "mdast-util-to-string",
+    "version": "4.0.0",
+    "license": "MIT",
+    "repository": "syntax-tree/mdast-util-to-string",
+    "source": "https://registry.npmjs.org/mdast-util-to-string/-/mdast-util-to-string-4.0.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-core-commonmark",
+    "version": "2.0.4",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-core-commonmark",
+    "source": "https://registry.npmjs.org/micromark-core-commonmark/-/micromark-core-commonmark-2.0.4.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-factory-destination",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-factory-destination",
+    "source": "https://registry.npmjs.org/micromark-factory-destination/-/micromark-factory-destination-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-factory-label",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-factory-label",
+    "source": "https://registry.npmjs.org/micromark-factory-label/-/micromark-factory-label-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-factory-space",
+    "version": "2.1.0",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-factory-space",
+    "source": "https://registry.npmjs.org/micromark-factory-space/-/micromark-factory-space-2.1.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-factory-title",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-factory-title",
+    "source": "https://registry.npmjs.org/micromark-factory-title/-/micromark-factory-title-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-factory-whitespace",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-factory-whitespace",
+    "source": "https://registry.npmjs.org/micromark-factory-whitespace/-/micromark-factory-whitespace-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-character",
+    "version": "2.1.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-character",
+    "source": "https://registry.npmjs.org/micromark-util-character/-/micromark-util-character-2.1.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-chunked",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-chunked",
+    "source": "https://registry.npmjs.org/micromark-util-chunked/-/micromark-util-chunked-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-classify-character",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-classify-character",
+    "source": "https://registry.npmjs.org/micromark-util-classify-character/-/micromark-util-classify-character-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-combine-extensions",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-combine-extensions",
+    "source": "https://registry.npmjs.org/micromark-util-combine-extensions/-/micromark-util-combine-extensions-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-decode-numeric-character-reference",
+    "version": "2.0.2",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-decode-numeric-character-reference",
+    "source": "https://registry.npmjs.org/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-2.0.2.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-decode-string",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-decode-string",
+    "source": "https://registry.npmjs.org/micromark-util-decode-string/-/micromark-util-decode-string-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-edit-map",
+    "version": "1.0.0",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-edit-map",
+    "source": "https://registry.npmjs.org/micromark-util-edit-map/-/micromark-util-edit-map-1.0.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-encode",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-encode",
+    "source": "https://registry.npmjs.org/micromark-util-encode/-/micromark-util-encode-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-html-tag-name",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-html-tag-name",
+    "source": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-normalize-identifier",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-normalize-identifier",
+    "source": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-resolve-all",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-resolve-all",
+    "source": "https://registry.npmjs.org/micromark-util-resolve-all/-/micromark-util-resolve-all-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-sanitize-uri",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-sanitize-uri",
+    "source": "https://registry.npmjs.org/micromark-util-sanitize-uri/-/micromark-util-sanitize-uri-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-subtokenize",
+    "version": "2.1.0",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-subtokenize",
+    "source": "https://registry.npmjs.org/micromark-util-subtokenize/-/micromark-util-subtokenize-2.1.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-symbol",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-symbol",
+    "source": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-2.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark-util-types",
+    "version": "2.0.3",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-types",
+    "source": "https://registry.npmjs.org/micromark-util-types/-/micromark-util-types-2.0.3.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "micromark",
+    "version": "4.0.3",
+    "license": "MIT",
+    "repository": "https://github.com/micromark/micromark/tree/main/packages/micromark",
+    "source": "https://registry.npmjs.org/micromark/-/micromark-4.0.3.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "ms",
+    "version": "2.1.3",
+    "license": "MIT",
+    "repository": "vercel/ms",
+    "source": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+    "includedNoticeFiles": ["license.md"]
+  },
+  {
+    "name": "nanoid",
+    "version": "3.3.20",
+    "license": "MIT",
+    "repository": "ai/nanoid",
+    "source": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "nanostores",
+    "version": "1.5.5",
+    "license": "MIT",
+    "repository": "nanostores/nanostores",
+    "source": "https://registry.npmjs.org/nanostores/-/nanostores-1.5.5.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "next",
+    "version": "16.4.4",
+    "license": "MIT",
+    "repository": "vercel/next.js",
+    "source": "https://registry.npmjs.org/next/-/next-16.4.4.tgz",
+    "includedNoticeFiles": ["license.md"]
+  },
+  {
+    "name": "node-addon-api",
+    "version": "8.9.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/nodejs/node-addon-api.git"
+    },
+    "source": "https://registry.npmjs.org/node-addon-api/-/node-addon-api-8.9.2.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "node-releases",
+    "version": "2.0.63",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/chicoxyzzy/node-releases.git"
+    },
+    "source": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.63.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "obug",
+    "version": "3.0.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sxzz/obug.git"
+    },
+    "source": "https://registry.npmjs.org/obug/-/obug-3.0.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "parse-entities",
+    "version": "4.0.2",
+    "license": "MIT",
+    "repository": "wooorm/parse-entities",
+    "source": "https://registry.npmjs.org/parse-entities/-/parse-entities-4.0.2.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "picocolors",
+    "version": "1.1.1",
+    "license": "ISC",
+    "repository": "alexeyraspopov/picocolors",
+    "source": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "picomatch",
+    "version": "4.0.7",
+    "license": "MIT",
+    "repository": "micromatch/picomatch",
+    "source": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "playwright-core",
+    "version": "1.64.1",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/microsoft/playwright.git"
+    },
+    "source": "https://registry.npmjs.org/playwright-core/-/playwright-core-1.64.1.tgz",
+    "includedNoticeFiles": ["LICENSE", "NOTICE"]
+  },
+  {
+    "name": "playwright",
+    "version": "1.64.1",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/microsoft/playwright.git"
+    },
+    "source": "https://registry.npmjs.org/playwright/-/playwright-1.64.1.tgz",
+    "includedNoticeFiles": ["LICENSE", "NOTICE"]
+  },
+  {
+    "name": "postcss",
+    "version": "8.5.23",
+    "license": "MIT",
+    "repository": "postcss/postcss",
+    "source": "https://registry.npmjs.org/postcss/-/postcss-8.5.23.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "postcss",
+    "version": "8.5.32",
+    "license": "MIT",
+    "repository": "postcss/postcss",
+    "source": "https://registry.npmjs.org/postcss/-/postcss-8.5.32.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "property-information",
+    "version": "7.2.0",
+    "license": "MIT",
+    "repository": "wooorm/property-information",
+    "source": "https://registry.npmjs.org/property-information/-/property-information-7.2.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/react/react.git",
+      "directory": "packages/react-dom"
+    },
+    "source": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "react-markdown",
+    "version": "10.1.0",
+    "license": "MIT",
+    "repository": "remarkjs/react-markdown",
+    "source": "https://registry.npmjs.org/react-markdown/-/react-markdown-10.1.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "react",
+    "version": "19.3.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/react/react.git",
+      "directory": "packages/react"
+    },
+    "source": "https://registry.npmjs.org/react/-/react-19.3.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "remark-parse",
+    "version": "11.0.0",
+    "license": "MIT",
+    "repository": "https://github.com/remarkjs/remark/tree/main/packages/remark-parse",
+    "source": "https://registry.npmjs.org/remark-parse/-/remark-parse-11.0.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "remark-rehype",
+    "version": "11.1.2",
+    "license": "MIT",
+    "repository": "remarkjs/remark-rehype",
+    "source": "https://registry.npmjs.org/remark-rehype/-/remark-rehype-11.1.2.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "rolldown",
+    "version": "1.2.16",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rolldown/rolldown.git",
+      "directory": "packages/rolldown"
+    },
+    "source": "https://registry.npmjs.org/rolldown/-/rolldown-1.2.16.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "rou3",
+    "version": "0.9.2",
+    "license": "MIT",
+    "repository": "h3js/rou3",
+    "source": "https://registry.npmjs.org/rou3/-/rou3-0.9.2.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "scheduler",
+    "version": "0.28.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/react/react.git",
+      "directory": "packages/scheduler"
+    },
+    "source": "https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "semver",
+    "version": "6.3.1",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/npm/node-semver.git"
+    },
+    "source": "https://registry.npmjs.org/semver/-/semver-6.3.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "semver",
+    "version": "7.8.5",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/npm/node-semver.git"
+    },
+    "source": "https://registry.npmjs.org/semver/-/semver-7.8.5.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "set-cookie-parser",
+    "version": "3.2.2",
+    "license": "MIT",
+    "repository": "nfriedly/set-cookie-parser",
+    "source": "https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-3.2.2.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "sharp",
+    "version": "0.35.5",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lovell/sharp.git"
+    },
+    "source": "https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz",
+    "includedNoticeFiles": ["LICENSE", "README.md"]
+  },
+  {
+    "name": "source-map-js",
+    "version": "1.2.2",
+    "license": "BSD-3-Clause",
+    "repository": "7rulnik/source-map-js",
+    "source": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "space-separated-tokens",
+    "version": "2.0.2",
+    "license": "MIT",
+    "repository": "wooorm/space-separated-tokens",
+    "source": "https://registry.npmjs.org/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "std-env",
+    "version": "4.3.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "unjs/std-env"
+    },
+    "source": "https://registry.npmjs.org/std-env/-/std-env-4.3.0.tgz",
+    "includedNoticeFiles": ["LICENCE"]
+  },
+  {
+    "name": "stringify-entities",
+    "version": "4.0.4",
+    "license": "MIT",
+    "repository": "wooorm/stringify-entities",
+    "source": "https://registry.npmjs.org/stringify-entities/-/stringify-entities-4.0.4.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "style-to-object",
+    "version": "2.0.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/remarkablemark/style-to-object.git"
+    },
+    "source": "https://registry.npmjs.org/style-to-object/-/style-to-object-2.0.2.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "styled-jsx",
+    "version": "5.1.6",
+    "license": "MIT",
+    "repository": "vercel/styled-jsx",
+    "source": "https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz",
+    "includedNoticeFiles": ["license.md"]
+  },
+  {
+    "name": "supports-color",
+    "version": "7.2.0",
+    "license": "MIT",
+    "repository": "chalk/supports-color",
+    "source": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "tailwindcss",
+    "version": "4.3.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tailwindlabs/tailwindcss.git",
+      "directory": "packages/tailwindcss"
+    },
+    "source": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "tapable",
+    "version": "2.3.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/webpack/tapable.git"
+    },
+    "source": "https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "tinybench",
+    "version": "6.2.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "tinylibs/tinybench"
+    },
+    "source": "https://registry.npmjs.org/tinybench/-/tinybench-6.2.2.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "tinyexec",
+    "version": "1.3.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tinylibs/tinyexec.git"
+    },
+    "source": "https://registry.npmjs.org/tinyexec/-/tinyexec-1.3.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "tinyglobby",
+    "version": "0.2.17",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SuperchupuDev/tinyglobby.git"
+    },
+    "source": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "trim-lines",
+    "version": "3.0.1",
+    "license": "MIT",
+    "repository": "wooorm/trim-lines",
+    "source": "https://registry.npmjs.org/trim-lines/-/trim-lines-3.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "trough",
+    "version": "2.2.0",
+    "license": "MIT",
+    "repository": "wooorm/trough",
+    "source": "https://registry.npmjs.org/trough/-/trough-2.2.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "tslib",
+    "version": "2.9.1",
+    "license": "0BSD",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Microsoft/tslib.git"
+    },
+    "source": "https://registry.npmjs.org/tslib/-/tslib-2.9.1.tgz",
+    "includedNoticeFiles": ["LICENSE.txt"]
+  },
+  {
+    "name": "tsx",
+    "version": "4.23.15",
+    "license": "MIT",
+    "repository": "privatenumber/tsx",
+    "source": "https://registry.npmjs.org/tsx/-/tsx-4.23.15.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "undici-types",
+    "version": "7.24.6",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nodejs/undici.git"
+    },
+    "source": "https://registry.npmjs.org/undici-types/-/undici-types-7.24.6.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "unified",
+    "version": "11.0.5",
+    "license": "MIT",
+    "repository": "unifiedjs/unified",
+    "source": "https://registry.npmjs.org/unified/-/unified-11.0.5.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "unist-util-is",
+    "version": "6.0.1",
+    "license": "MIT",
+    "repository": "syntax-tree/unist-util-is",
+    "source": "https://registry.npmjs.org/unist-util-is/-/unist-util-is-6.0.1.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "unist-util-position",
+    "version": "5.0.0",
+    "license": "MIT",
+    "repository": "syntax-tree/unist-util-position",
+    "source": "https://registry.npmjs.org/unist-util-position/-/unist-util-position-5.0.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "unist-util-stringify-position",
+    "version": "4.0.0",
+    "license": "MIT",
+    "repository": "syntax-tree/unist-util-stringify-position",
+    "source": "https://registry.npmjs.org/unist-util-stringify-position/-/unist-util-stringify-position-4.0.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "unist-util-visit-parents",
+    "version": "6.1.0",
+    "license": "MIT",
+    "repository": "syntax-tree/unist-util-visit-parents",
+    "source": "https://registry.npmjs.org/unist-util-visit-parents/-/unist-util-visit-parents-6.1.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "unist-util-visit",
+    "version": "5.2.0",
+    "license": "MIT",
+    "repository": "syntax-tree/unist-util-visit",
+    "source": "https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-5.2.0.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "update-browserslist-db",
+    "version": "1.3.4",
+    "license": "MIT",
+    "repository": "browserslist/update-db",
+    "source": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.3.4.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "use-sync-external-store",
+    "version": "1.7.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/react/react.git",
+      "directory": "packages/use-sync-external-store"
+    },
+    "source": "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.7.0.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "vfile-message",
+    "version": "4.0.3",
+    "license": "MIT",
+    "repository": "vfile/vfile-message",
+    "source": "https://registry.npmjs.org/vfile-message/-/vfile-message-4.0.3.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "vfile",
+    "version": "6.0.3",
+    "license": "MIT",
+    "repository": "vfile/vfile",
+    "source": "https://registry.npmjs.org/vfile/-/vfile-6.0.3.tgz",
+    "includedNoticeFiles": ["license"]
+  },
+  {
+    "name": "vite",
+    "version": "8.3.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vitejs/vite.git",
+      "directory": "packages/vite"
+    },
+    "source": "https://registry.npmjs.org/vite/-/vite-8.3.5.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "vitest",
+    "version": "5.0.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vitest-dev/vitest.git",
+      "directory": "packages/vitest"
+    },
+    "source": "https://registry.npmjs.org/vitest/-/vitest-5.0.5.tgz",
+    "includedNoticeFiles": ["LICENSE.md"]
+  },
+  {
+    "name": "why-is-node-running",
+    "version": "3.2.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mafintosh/why-is-node-running.git"
+    },
+    "source": "https://registry.npmjs.org/why-is-node-running/-/why-is-node-running-3.2.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "yallist",
+    "version": "3.1.1",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/isaacs/yallist.git"
+    },
+    "source": "https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "zod",
+    "version": "4.6.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/colinhacks/zod.git"
+    },
+    "source": "https://registry.npmjs.org/zod/-/zod-4.6.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "zustand",
+    "version": "4.5.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pmndrs/zustand.git"
+    },
+    "source": "https://registry.npmjs.org/zustand/-/zustand-4.5.7.tgz",
+    "includedNoticeFiles": ["LICENSE"]
+  },
+  {
+    "name": "zwitch",
+    "version": "2.0.4",
+    "license": "MIT",
+    "repository": "wooorm/zwitch",
+    "source": "https://registry.npmjs.org/zwitch/-/zwitch-2.0.4.tgz",
+    "includedNoticeFiles": ["license"]
+  }
+]
